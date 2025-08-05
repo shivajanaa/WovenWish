@@ -1,0 +1,15 @@
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute !important;
+  bottom: 130px; /* Push below carousel */
+  top: auto !important; /* Remove top position */
+  color:#885441;
+}
+
+.swiper-button-prev {
+  left: 0px; /* Move to center-left */
+}
+
+.swiper-button-next {
+  right: 0px; /* Move to center-right */
+}
