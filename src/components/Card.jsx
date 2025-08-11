@@ -10,9 +10,11 @@ export default function Card({ image, title, price }) {
       />
       <h3 className="mt-3 text-lg font-semibold text-gray-800">{title}</h3>
       <p className="text-pink-500 font-bold text-lg mt-1">₹{price}</p>
+     <a href="https://www.instagram.com/direct/t/17842842840551079/" target="_blank"
+  rel="noopener noreferrer">
       <button className="mt-3 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-xl transition">
-        Add to Cart
-      </button>
+       DM to order
+      </button></a> 
     </div>
   );
 }

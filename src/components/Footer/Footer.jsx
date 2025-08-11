@@ -12,7 +12,18 @@ export default function Footer() {
       </nav>
 
       <div className="flex justify-center gap-4 mb-4">
-        <a href="#"><img src="./images/instagram.svg" alt="Instagram" className="w-15 hover:scale-110 transition" /></a>
+        <a
+  href="https://www.instagram.com/the_wovenwish/?utm_source=ig_web_button_share_sheet"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="./images/instagram.svg"
+    alt="Instagram"
+    className="w-15 hover:scale-110 transition"
+  />
+</a>
+
         <a href="#"><img src="./images/facebook.svg" alt="Facebook" className="w-15 hover:scale-110 transition" /></a>
         <a href="#"><img src="./images/pintrest.svg" alt="Pinterest" className="w-15 hover:scale-110 transition" /></a>
       </div>

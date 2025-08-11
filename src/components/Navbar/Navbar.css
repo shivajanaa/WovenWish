@@ -1,10 +1,13 @@
-li{
-    margin: 10px;
-    border: solid transparent 1px;
-    font-weight: bold;
-    color: #805134;
+li {
+  margin: 20px;
+  border-bottom: 1px solid transparent; /* keeps layout stable */
+  font-weight: bold;
+  color: #805134;
+  cursor: pointer; /* better UX */
+  transition: border-color 0.3s ease, color 0.3s ease;
 }
-li:hover{
-    border-bottom: solid black 1px;
-    transition-duration: 7ms;
+
+li:hover {
+  border-bottom: 1px solid black;
+  color: black; /* optional: text color change */
 }
