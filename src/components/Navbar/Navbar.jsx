@@ -16,8 +16,8 @@ const navLinks = [
       { name: "Fashion", hash: "#fashion" },
     ],
   },
-  { name: "About Us", path: "/about#about" },
-  { name: "Contact", path: "/contact" },
+ 
+  { name: "Contact", path: "/contact" }
 ];
 
 export default function Navbar() {
