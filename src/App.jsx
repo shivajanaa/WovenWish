@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "r
 import { AnimatePresence, motion } from "framer-motion";
 
 import Navbar from "./components/Navbar/Navbar";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage.jsx";
 import ProductPage from "./pages/ProductPage";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer/Footer";
@@ -57,8 +57,8 @@ export default function App() {
       <Router>
         <Navbar />
         <AnimatedRoutes />
+        <Footer /> {/* ✅ Moved inside Router so Links work */}
       </Router>
-      <Footer />
     </div>
   );
 }
