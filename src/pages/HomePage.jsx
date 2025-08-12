@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ProductCarousel from '../components/Carsouel/ProductCarousel'
+
+import ProductCard from '../components/Cards/ProductCard'
+import ProductTypeCard from '../components/Cards/CategoryCards'
+import CategoryCards from '../components/Cards/CategoryCards'
+
 
 const HomePage = () => {
   return (
@@ -38,7 +42,9 @@ const HomePage = () => {
               Our Products
             </h2>
           </Link>
-          <ProductCarousel />
+          
+          <CategoryCards/>
+          
         </div>
       </div>
 

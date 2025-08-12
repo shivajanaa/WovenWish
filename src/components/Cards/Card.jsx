@@ -15,6 +15,7 @@ export default function Card({ image, title, price }) {
       <button className="mt-3 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-xl transition">
        DM to order
       </button></a> 
+      {/* <InstagramDMButton/> */}
     </div>
   );
 }
