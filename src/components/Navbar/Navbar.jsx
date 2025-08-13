@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import SearchBox from "../SearchBox";
+import { Link } from "react-router-dom";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -40,10 +41,14 @@ export default function Navbar() {
     >
       <div className="flex items-center justify-between h-[15vh] max-w-8xl mx-auto px-4 md:px-8 text-[#8A5560]">
         {/* Logo */}
-        <div className="flex items-center space-x-3">
-          <img className="w-20" src="/images/logo.png" alt="Wovenwish" />
+      <Link to="/">  
+      <div className="flex items-center space-x-3">
+        
+         <img className="w-20" src="/images/logo.png" alt="Wovenwish" /> 
           <h1 className="font-bold text-lg">Woven Wish</h1>
+          
         </div>
+        </Link>  
 
         {/* Search */}
         <div className="hidden md:block">
